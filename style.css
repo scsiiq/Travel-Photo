@@ -1,0 +1,233 @@
+html{
+    background-color: #84C9FA;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+header{
+    background-color: #001f3f;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.logo{
+    height: 60px;
+    width:60px;
+    background: url("img/logo.png") center center;
+    background-size: cover;
+    margin-left: 20px ;
+}
+.navigation_wrapper{
+    display: flex;
+    width:1050px;
+    justify-content: flex-end;
+}
+.navigation{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+.navigation a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.intro_main{
+    width: 100%;
+    height:580px;
+    background:url("img/main_1.jpg") center center / cover;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+.intro_main__wrapper{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.intro_main__wrapper h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+}
+.intro_main__wrapper button{
+    background-color: #001f3f;
+    color: white;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    border: 2px dotted red;
+}
+.intro_main__wrapper button:hover{
+    background-color: orange;
+    width: 230px;
+    transition: 1s all;
+}
+.section_promo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+    background-color: #001f3f;
+    color: white;
+    padding: 20px 0;
+}
+article {
+    background-color: white;
+    padding: 5% 7% 12% 7%;
+    border-right:3px solid #001f3f;
+    border-left:3px solid #001f3f;
+}
+article p {
+    margin-top: 1.5em;
+    color: #001f3f;
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+}
+.wrapper_icons_main{
+    border-top:1px solid #001f3f;
+    border-bottom:3px solid #001f3f;
+    border-right:3px solid #001f3f;
+    border-left:3px solid #001f3f;
+}
+.wrapper_icons{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.wrapper_card{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 396px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right:2px solid #001f3f;
+}
+.bord-left{
+    border-top:2px solid #001f3f;
+    border-bottom:1px solid #001f3f;
+    border-left:2px solid #001f3f;
+}
+.bord-center{
+    border-top:2px solid #001f3f;
+    border-bottom:1px solid #001f3f;
+    border-right:1px solid #001f3f;
+    border-left:1px solid #001f3f;
+}
+.bord-right{
+    border-top:2px solid #001f3f;
+    border-bottom:1px solid #001f3f;
+    border-left:2px solid #001f3f;
+}
+.card_logo{
+    width: 200px;
+    height: 200px;
+    background: url("icons/moscow.png") top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.card_logo1{
+    width: 200px;
+    height: 200px;
+    background: url("icons/south-america.png") top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.card_logo2{
+    width: 200px;
+    height: 200px;
+    background: url("icons/big-ben.png") top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.card_logo3{
+    width: 200px;
+    height: 200px;
+    background: url("icons/kangaroo.png") top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.card_logo4{
+    width: 200px;
+    height: 200px;
+    background: url("icons/north-america.png") top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.card_logo5{
+    width: 200px;
+    height: 200px;
+    background: url("icons/pyramids.png") top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.orange{
+    margin-top: 15px;
+    background-color: orange;
+    width: 140px;
+    height: 3px;
+}
+.card h5{
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.card p{
+    margin-top: 15px; 
+    font-size: 15px;
+    font-family: Verdana;
+    padding-block-end: 50px;
+}
+footer{
+    background-color: #001f3f;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.logo1{
+    height: 60px;
+    width: 160px;
+    background-size: cover;
+    margin-left: 50px;
+}
+.navigation_wrapper1{
+    display: flex;
+    width:1050px;
+    justify-content: flex-end;
+}
+.navigation1{
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
+    color: rgb(105, 189, 241);
+    font-size: 50px;
+}
+.navigation1 i{
+    color: rgb(105, 189, 241);
+    font-size: 50px;
+}
+.fa-arrow-alt-circle-up{
+    color: white;
+    font-size: 60px;
+}
